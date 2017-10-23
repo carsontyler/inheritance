@@ -9,7 +9,7 @@ void Scientist::setData()
     cin >> pubs;
 }
 
-void Scientist::getdata()
+void Scientist::getData()
 {
     Employee::getData();
     cout << "\nNumber of publications: " << pubs;

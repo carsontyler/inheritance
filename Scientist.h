@@ -13,7 +13,7 @@ private:
     int pubs;
 public:
     void setData();
-    void getdata();
+    void getData();
 
 };
 

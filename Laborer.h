@@ -11,5 +11,14 @@ class Laborer : public Employee
 
 };
 
+class Foreman: public Laborer
+{
+private:
+    float quotas;
+public:
+    void setData();
+    void getData();
+};
+
 
 #endif //INHERITANCE_LABORER_H
